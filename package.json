@@ -1,4 +1,9 @@
 {
+    "scripts": {
+      "build": "next build && next export"
+    }
+}
+{
   "name": "interfaith-platform",
   "version": "1.0.0",
   "dependencies": {
