@@ -1,16 +1,16 @@
 {
-    "scripts": {
-      "build": "next build && next export"
-    }
-}
-{
   "name": "interfaith-platform",
   "version": "1.0.0",
-  "dependencies": {
-    "@deepseek/api": "^1.0.0",
-    "web3.storage": "^4.0.0"
-  },
   "scripts": {
-    "start": "node server.js"
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "i18next": "^23.7.0",
+    "web3.storage": "^6.1.0"
   }
 }
