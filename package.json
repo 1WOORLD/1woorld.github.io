@@ -1,0 +1,11 @@
+{
+  "name": "interfaith-platform",
+  "version": "1.0.0",
+  "dependencies": {
+    "@deepseek/api": "^1.0.0",
+    "web3.storage": "^4.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
