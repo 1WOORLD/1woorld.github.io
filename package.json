@@ -1,22 +1,27 @@
 {
-  "name": "interfaith-platform",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build && next export",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "^14.1.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "i18next": "^23.7.0",
-    "web3.storage": "^6.1.0"
-  }
-}{
-    "dependencies": {
-        "web3.storage": "^6.1.0",       // الإصدار الصحيح
-            "@deepseek/api": "^1.0.0"        // إذا كانت المكتبة موجودة
-              }
-              }
-}
+      "name": "interfaith-platform",
+        "version": "1.0.0",
+          "private": true,
+            "scripts": {
+                "dev": "next dev",
+                    "build": "next build && next export",
+                        "start": "next start",
+                            "lint": "next lint"
+                              },
+                                "dependencies": {
+                                    "next": "^14.1.0",
+                                        "react": "^18.2.0",
+                                            "react-dom": "^18.2.0",
+                                                "i18next": "^23.7.0",
+                                                    "react-i18next": "^14.0.1",
+                                                        "web3.storage": "^6.1.0",
+                                                            "ipfs-http-client": "^78.0.0",
+                                                                "@mui/material": "^5.14.20",
+                                                                    "@emotion/react": "^11.11.1",
+                                                                        "@emotion/styled": "^11.11.0"
+                                                                          },
+                                                                            "devDependencies": {
+                                                                                "eslint": "^8.56.0",
+                                                                                    "eslint-config-next": "^14.1.0"
+                                                                                      }
+                                                                                      }
