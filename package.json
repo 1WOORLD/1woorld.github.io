@@ -27,5 +27,8 @@
     }
   }
 
-    "*.{js,jsx}": "eslint --fix"{
+    "lint-staged": {
+  "*.{js,jsx,ts,tsx}": "eslint --fix",
+  "*.{css,scss}": "stylelint --fix"
+    }
   
